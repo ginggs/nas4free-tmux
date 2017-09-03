@@ -10,7 +10,7 @@
 DIR=`dirname $0`;
 PLATFORM=`uname -m`
 RELEASE=`uname -r | cut -d- -f1`
-URL="ftp://ftp.freebsd.org/pub/FreeBSD/ports/${PLATFORM}/packages-9.1-release/All"
+URL="ftp://ftp-archive.freebsd.org/pub/FreeBSD-Archive/ports/${PLATFORM}/packages-9.1-release/All"
 TMUXFILE="tmux-1.7_1.tbz"
 LIBEVENTFILE="libevent-1.4.14b_2.tbz"
 #----------------------- Set Errors ---------------------------------------------------------------------
